@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="/js/bootstrap.bundle.js"></script>
+  </head>
+  <body>
+    <section id="form" class="bg-light p-3">
+      <section class="signup text-center">
+        <h3>SIGNUP FORM</h3>
+      </section>
+
+      <section class="row justify-content-center">
+        <section class="col-lg-6">
+          <form id="Form">
+            <div class="input-group mb-2">
+              <span class="input-group-text"><i class="ri-infinity-line  fs-5"></i></span>
+            <input
+              type="text"
+              class="form-control"
+              name="user-Firstname"
+              id="FirstName"
+              placeholder="FirstName"
+              required
+              
+            />
+            </div>
+
+            <div class="input-group mb-2">
+              <span class="input-group-text"><i class="ri-xing-fill"></i></span>
+            <input
+              type="text"
+              class="form-control"
+              name="user-Lastname"
+              id="LastName"
+              placeholder="LastName"
+              required
+              
+            />
+            </div>
+            <div class="input-group mb-2">
+              <span class="input-group-text"><i class="ri-webhook-fill"></i></i></span>
+            <input
+              type="number"
+              class="form-control"
+              name="user-Number"
+              id="Mobile-Number"
+              placeholder="Mobile Number"
+              required
+              
+            />
+            </div>
+            <div class="input-group mb-2">
+              <span class="input-group-text"><i class="ri-at-line"></i></span>
+            <input
+              type="email"
+              class="form-control"
+              name="user-Email"
+              id="Email"
+              placeholder="Email"
+              required
+              
+            />
+            </div>
+            <div class="input-group mb-2">
+              <span class="input-group-text"><i class="ri-fingerprint-fill"></i></span>
+            <input
+              type="password"
+              class="form-control"
+              name="user-pwd"
+              id="pwd"
+              placeholder="Password"
+              required
+              
+            />
+            </div>
+            <div class="input-group mb-2">
+              <span class="input-group-text"><i class="ri-fingerprint-fill"></i></span>
+            <input
+              type="password"
+              class="form-control"
+              name="user-confirmpwd"
+              id="confirmpwd"
+              placeholder="ConfirmPassword"
+              required
+            />
+            </div>
+            <button id="Enrollnow"  type="submit" class=" p-1 mt-4" style="width:100%; ">Enroll Now</button>
+          </form>
+        </section>
+      </section>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
